@@ -13,7 +13,7 @@ try:
     bot.land_first_page()
     # remove sign in popup
     bot.close_popup()
-    # bot.change_currency(currency="EUR")
+    bot.change_currency(currency="EUR")
     bot.select_place_to_go(place=place)
     bot.select_dates(check_in_date=check_in_date,
                     check_out_date=check_out_date)
